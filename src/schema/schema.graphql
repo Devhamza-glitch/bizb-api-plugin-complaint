@@ -1,0 +1,13 @@
+extend type Mutation {
+  sendComplintFrom(
+    name: String!
+    phoneNumber: String!
+    orderId: String
+    email:String
+    transicationDate:String
+    buyerOrSeller:String
+    complaintCategories:String
+    detailDescriptionOfComplaint:String
+    additionalComment:String
+  ): Boolean!
+}
